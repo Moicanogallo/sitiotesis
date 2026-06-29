@@ -5,4 +5,4 @@ User-agent: *
 Allow: /
 
 # Mapa del sitio (actualice el dominio cuando publique en GitHub Pages)
-Sitemap: https://ejemplo.github.io/tesis-ciberdefensa/sitemap.xml
+Sitemap: https://moicanogallo.github.io/sitiotesis/sitemap.xml
