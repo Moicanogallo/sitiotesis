@@ -1,0 +1,438 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 3 /Kids [5 0 R 7 0 R 9 0 R] /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 6263 >>
+stream
+BT /F2 9 Tf 1 0 0 1 50.00 791.89 Tm (SECRETARÍA DE LA DEFENSA NACIONAL) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 50.00 779.89 Tm (Dirección General de Educación Militar y Rectoría de la U.D.E.F.A.) Tj ET
+BT /F1 8.5 Tf 1 0 0 1 50.00 768.89 Tm (Escuela Militar de Ingeniería — Maestría en Ciberseguridad y Ciberdefensa) Tj ET
+0.80 0.66 0.15 RG 1 w 50.00 755.89 m 545.28 755.89 l S
+BT /F2 16 Tf 1 0 0 1 50.00 740.69 Tm (Programa de Estudios) Tj ET
+0.79 0.64 0.15 RG 1.5 w 50.00 724.69 m 120.00 724.69 l S
+BT /F1 10 Tf 1 0 0 1 50.00 712.69 Tm (Asignatura: Operaciones de Ciberdefensa) Tj ET
+BT /F2 12 Tf 1 0 0 1 50.00 689.29 Tm (Datos generales de la asignatura) Tj ET
+0.79 0.64 0.15 RG 1.5 w 50.00 677.29 m 120.00 677.29 l S
+0.18 0.23 0.17 rg 50.00 645.29 495.28 20.00 re f
+BT /F2 9.5 Tf 1.00 1.00 1.00 rg 1 0 0 1 54.00 651.79 Tm (Campo) Tj ET
+BT /F2 9.5 Tf 1.00 1.00 1.00 rg 1 0 0 1 192.68 651.79 Tm (Detalle) Tj ET
+0.75 0.78 0.72 RG 0.5 w
+50.00 645.29 495.28 20.00 re S
+188.68 665.29 m 188.68 645.29 l S
+BT /F1 9.5 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 631.79 Tm (Asignatura) Tj ET
+BT /F1 9.5 Tf 0.10 0.13 0.09 rg 1 0 0 1 192.68 631.79 Tm (Operaciones de Ciberdefensa) Tj ET
+0.75 0.78 0.72 RG 0.5 w
+50.00 625.29 495.28 20.00 re S
+188.68 645.29 m 188.68 625.29 l S
+BT /F1 9.5 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 611.79 Tm (Tipo de estudios) Tj ET
+BT /F1 9.5 Tf 0.10 0.13 0.09 rg 1 0 0 1 192.68 611.79 Tm (Maestría en Ciberseguridad y Ciberdefensa) Tj ET
+0.75 0.78 0.72 RG 0.5 w
+50.00 605.29 495.28 20.00 re S
+188.68 625.29 m 188.68 605.29 l S
+BT /F1 9.5 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 591.79 Tm (Ciclo escolar) Tj ET
+BT /F1 9.5 Tf 0.10 0.13 0.09 rg 1 0 0 1 192.68 591.79 Tm (2025-2026) Tj ET
+0.75 0.78 0.72 RG 0.5 w
+50.00 585.29 495.28 20.00 re S
+188.68 605.29 m 188.68 585.29 l S
+BT /F1 9.5 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 571.79 Tm (Vigencia) Tj ET
+BT /F1 9.5 Tf 0.10 0.13 0.09 rg 1 0 0 1 192.68 571.79 Tm (A partir del 1 de septiembre de 2025) Tj ET
+0.75 0.78 0.72 RG 0.5 w
+50.00 565.29 495.28 20.00 re S
+188.68 585.29 m 188.68 565.29 l S
+BT /F1 9.5 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 551.79 Tm (Periodo) Tj ET
+BT /F1 9.5 Tf 0.10 0.13 0.09 rg 1 0 0 1 192.68 551.79 Tm (Trimestral) Tj ET
+0.75 0.78 0.72 RG 0.5 w
+50.00 545.29 495.28 20.00 re S
+188.68 565.29 m 188.68 545.29 l S
+BT /F1 9.5 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 531.79 Tm (Total de horas) Tj ET
+BT /F1 9.5 Tf 0.10 0.13 0.09 rg 1 0 0 1 192.68 531.79 Tm (70 horas) Tj ET
+0.75 0.78 0.72 RG 0.5 w
+50.00 525.29 495.28 20.00 re S
+188.68 545.29 m 188.68 525.29 l S
+BT /F1 9.5 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 511.79 Tm (Créditos) Tj ET
+BT /F1 9.5 Tf 0.10 0.13 0.09 rg 1 0 0 1 192.68 511.79 Tm (4.38) Tj ET
+0.75 0.78 0.72 RG 0.5 w
+50.00 505.29 495.28 20.00 re S
+188.68 525.29 m 188.68 505.29 l S
+BT /F2 12 Tf 1 0 0 1 50.00 494.89 Tm (Objetivo de la asignatura) Tj ET
+0.79 0.64 0.15 RG 1.5 w 50.00 482.89 m 120.00 482.89 l S
+BT /F1 10 Tf 1 0 0 1 50.00 470.89 Tm (Planear operaciones militares en el ciberespacio a nivel estratégico y operacional conforme a la doctrina en) Tj ET
+BT /F1 10 Tf 1 0 0 1 50.00 456.89 Tm (materia de ciberdefensa para proteger las instalaciones estratégicas del Estado Mexicano y garantizar su) Tj ET
+BT /F1 10 Tf 1 0 0 1 50.00 442.89 Tm (seguridad en el ciberespacio mediante la prevención, identificación y neutralización de ciberamenazas o) Tj ET
+BT /F1 10 Tf 1 0 0 1 50.00 428.89 Tm (ciberataques. El discente aplica la Metodología del Planeamiento Táctico \(ADM\) integrada con el NIST) Tj ET
+BT /F1 10 Tf 1 0 0 1 50.00 414.89 Tm (Cybersecurity Framework 2.0 y MITRE ATT&CK para fortalecer el pensamiento crítico, el pensamiento) Tj ET
+BT /F1 10 Tf 1 0 0 1 50.00 400.89 Tm (sistémico y el pensamiento creativo y elevar la calidad de los productos de planeación de operaciones de) Tj ET
+BT /F1 10 Tf 1 0 0 1 50.00 386.89 Tm (ciberdefensa.) Tj ET
+BT /F2 12 Tf 1 0 0 1 50.00 365.49 Tm (Alcance) Tj ET
+0.79 0.64 0.15 RG 1.5 w 50.00 353.49 m 120.00 353.49 l S
+BT /F1 10 Tf 1 0 0 1 50.00 341.49 Tm (Al cubrir el contenido temático, el discente adquiere los conocimientos, las habilidades y las destrezas para) Tj ET
+BT /F1 10 Tf 1 0 0 1 50.00 327.49 Tm (desempeñar sus funciones en materia de ciberseguridad y ciberdefensa. El discente planea operaciones en el) Tj ET
+BT /F1 10 Tf 1 0 0 1 50.00 313.49 Tm (ciberespacio mediante la Metodología del Planeamiento Táctico \(ADM\) y articula sus fases con las funciones del) Tj ET
+BT /F1 10 Tf 1 0 0 1 50.00 299.49 Tm (NIST Cybersecurity Framework 2.0 \(Govern, Identify, Protect, Detect, Respond y Recover\) y con las tácticas y) Tj ET
+BT /F1 10 Tf 1 0 0 1 50.00 285.49 Tm (técnicas de MITRE ATT&CK. Con esta integración, el discente identifica activos críticos, caracteriza amenazas y) Tj ET
+BT /F1 10 Tf 1 0 0 1 50.00 271.49 Tm (vulnerabilidades, formula el problema operacional, diseña cursos de acción y elabora productos de planeación) Tj ET
+BT /F1 10 Tf 1 0 0 1 50.00 257.49 Tm (estandarizados, comparables y accionables que coadyuvan con la identificación, prevención, contención y) Tj ET
+BT /F1 10 Tf 1 0 0 1 50.00 243.49 Tm (neutralización de las ciberamenazas o ciberataques.) Tj ET
+BT /F2 12 Tf 1 0 0 1 50.00 222.09 Tm (Metodología del trabajo) Tj ET
+0.79 0.64 0.15 RG 1.5 w 50.00 210.09 m 120.00 210.09 l S
+BT /F1 10 Tf 1 0 0 1 50.00 198.09 Tm (La asignatura adopta el modelo pedagógico basado en la Metodología del Planeamiento Táctico \(ADM\) propuesto) Tj ET
+BT /F1 10 Tf 1 0 0 1 50.00 184.09 Tm (por Barrios Jaime \(2026\). El modelo articula las fases de ADM con las funciones del NIST Cybersecurity) Tj ET
+BT /F1 10 Tf 1 0 0 1 50.00 170.09 Tm (Framework 2.0 y con las tácticas y técnicas de MITRE ATT&CK: ADM aporta la estructura de razonamiento) Tj ET
+BT /F1 10 Tf 1 0 0 1 50.00 156.09 Tm (operacional, NIST las capacidades de seguridad y MITRE el comportamiento adversario.) Tj ET
+BT /F1 10 Tf 1 0 0 1 50.00 137.09 Tm (El docente conduce el proceso con escenarios de ciberdefensa que reproducen condiciones cercanas a la realidad) Tj ET
+BT /F1 10 Tf 1 0 0 1 50.00 123.09 Tm (operacional, empleando aprendizaje orientado a proyectos, basado en problemas, colaborativo y cooperativo.) Tj ET
+BT /F2 12 Tf 1 0 0 1 50.00 101.69 Tm (Contenidos temáticos y carga horaria) Tj ET
+0.79 0.64 0.15 RG 1.5 w 50.00 89.69 m 120.00 89.69 l S
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 15246 >>
+stream
+0.18 0.23 0.17 rg 50.00 773.39 495.28 18.50 re f
+BT /F2 8 Tf 1.00 1.00 1.00 rg 1 0 0 1 54.00 779.89 Tm (Tema y subtemas) Tj ET
+BT /F2 8 Tf 1.00 1.00 1.00 rg 1 0 0 1 222.40 779.89 Tm (Objetivo) Tj ET
+BT /F2 8 Tf 1.00 1.00 1.00 rg 1 0 0 1 470.04 779.89 Tm (T.) Tj ET
+BT /F2 8 Tf 1.00 1.00 1.00 rg 1 0 0 1 509.66 779.89 Tm (P.) Tj ET
+0.75 0.78 0.72 RG 0.5 w
+50.00 773.39 495.28 18.50 re S
+218.40 791.89 m 218.40 773.39 l S
+466.04 791.89 m 466.04 773.39 l S
+505.66 791.89 m 505.66 773.39 l S
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 761.39 Tm (I. Introducción a la ciberdefensa y) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 750.89 Tm (ciberseguridad.) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 761.39 Tm (Examina aspectos fundamentales de ciberdefensa y ciberseguridad,) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 750.89 Tm (con el fin de emplearlos de forma adecuada durante el planeamiento) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 740.39 Tm (de operaciones de ciberdefensa, dimensionando las capacidades) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 729.89 Tm (operac) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 470.04 761.39 Tm () Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 509.66 761.39 Tm () Tj ET
+0.75 0.78 0.72 RG 0.5 w
+50.00 723.39 495.28 50.00 re S
+218.40 773.39 m 218.40 723.39 l S
+466.04 773.39 m 466.04 723.39 l S
+505.66 773.39 m 505.66 723.39 l S
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 711.39 Tm (Ciberespacio. Guerra cibernética. Agresión) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 700.89 Tm (cibernética. Operaciones cibernéticas.) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 690.39 Tm (Ciberdefensa y Ciberseguridad. Capacid) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 711.39 Tm (Examina aspectos fundamentales de ciberdefensa y ciberseguridad,) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 700.89 Tm (con el fin de emplearlos de forma adecuada durante el planeamiento) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 690.39 Tm (de operaciones de ciberdefensa, dimensionando las capacidades) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 679.89 Tm (operac) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 470.04 711.39 Tm (6) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 509.66 711.39 Tm (2) Tj ET
+0.75 0.78 0.72 RG 0.5 w
+50.00 673.39 495.28 50.00 re S
+218.40 723.39 m 218.40 673.39 l S
+466.04 723.39 m 466.04 673.39 l S
+505.66 723.39 m 505.66 673.39 l S
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 661.39 Tm (II. Estrategias y políticas nacionales en el) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 650.89 Tm (campo de la ciberdefensa y ciberseguridad.) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 640.39 Tm (Estrategias y políticas de Méxic) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 661.39 Tm (Analiza y clasifica estrategias y políticas nacionales e internaciones) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 650.89 Tm (en materia de ciberdefensa y ciberseguridad, con la finalidad de) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 640.39 Tm (sustentar teóricamente el planeamiento de operaciones de ciberde) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 470.04 661.39 Tm (5) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 509.66 661.39 Tm (2) Tj ET
+0.75 0.78 0.72 RG 0.5 w
+50.00 633.89 495.28 39.50 re S
+218.40 673.39 m 218.40 633.89 l S
+466.04 673.39 m 466.04 633.89 l S
+505.66 673.39 m 505.66 633.89 l S
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 621.89 Tm (III. Doctrinas militares en el campo de la) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 611.39 Tm (ciberdefensa y ciberseguridad.) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 621.89 Tm (Compara las doctrinas militares internacionales en materia de) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 611.39 Tm (ciberdefensa y ciberseguridad, con el objeto de evaluar los diferentes) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 600.89 Tm (contextos que sustentan el planeamiento de las operaciones de ciber) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 470.04 621.89 Tm () Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 509.66 621.89 Tm () Tj ET
+0.75 0.78 0.72 RG 0.5 w
+50.00 594.39 495.28 39.50 re S
+218.40 633.89 m 218.40 594.39 l S
+466.04 633.89 m 466.04 594.39 l S
+505.66 633.89 m 505.66 594.39 l S
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 582.39 Tm (Francia. Unión Europea. España. Estados) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 571.89 Tm (Unidos de América. Brasil. Argentina.) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 582.39 Tm (Compara las doctrinas militares internacionales en materia de) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 571.89 Tm (ciberdefensa y ciberseguridad, con el objeto de evaluar los diferentes) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 561.39 Tm (contextos que sustentan el planeamiento de las operaciones de ciber) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 470.04 582.39 Tm (5) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 509.66 582.39 Tm (2) Tj ET
+0.75 0.78 0.72 RG 0.5 w
+50.00 554.89 495.28 39.50 re S
+218.40 594.39 m 218.40 554.89 l S
+466.04 594.39 m 466.04 554.89 l S
+505.66 594.39 m 505.66 554.89 l S
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 542.89 Tm (Suma parcial de horas) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 542.89 Tm () Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 470.04 542.89 Tm (16) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 509.66 542.89 Tm (6) Tj ET
+0.75 0.78 0.72 RG 0.5 w
+50.00 536.39 495.28 18.50 re S
+218.40 554.89 m 218.40 536.39 l S
+466.04 554.89 m 466.04 536.39 l S
+505.66 554.89 m 505.66 536.39 l S
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 524.39 Tm (Evaluación 1/er. parcial.) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 524.39 Tm (Demuestra sus conocimientos, habilidades y destrezas adquiridas,) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 513.89 Tm (mediante la resolución de una prueba teórica y/o práctica.) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 470.04 524.39 Tm (1) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 509.66 524.39 Tm (1) Tj ET
+0.75 0.78 0.72 RG 0.5 w
+50.00 507.39 495.28 29.00 re S
+218.40 536.39 m 218.40 507.39 l S
+466.04 536.39 m 466.04 507.39 l S
+505.66 536.39 m 505.66 507.39 l S
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 495.39 Tm (IV. Operaciones militares en el ciberespacio.) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 495.39 Tm () Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 470.04 495.39 Tm () Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 509.66 495.39 Tm () Tj ET
+0.75 0.78 0.72 RG 0.5 w
+50.00 488.89 495.28 18.50 re S
+218.40 507.39 m 218.40 488.89 l S
+466.04 507.39 m 466.04 488.89 l S
+505.66 507.39 m 505.66 488.89 l S
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 476.89 Tm (Poder cibernético militar. Sistemas) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 466.39 Tm (cibernéticos. Operaciones de red e) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 455.89 Tm (información, cibernéticas y sus fases en) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 445.39 Tm (campaña.) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 476.89 Tm (Planea operaciones militares en el ciberespacio con base en los) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 466.39 Tm (fundamentos del Derecho Internacional y los procedimientos) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 455.89 Tm (sistemáticos que demandan las operaciones de ciberdefensa,) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 445.39 Tm (coadyuvando con lo) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 470.04 476.89 Tm (4) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 509.66 476.89 Tm (5) Tj ET
+0.75 0.78 0.72 RG 0.5 w
+50.00 438.89 495.28 50.00 re S
+218.40 488.89 m 218.40 438.89 l S
+466.04 488.89 m 466.04 438.89 l S
+505.66 488.89 m 505.66 438.89 l S
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 426.89 Tm (V. Operaciones cibernéticas y los principios) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 416.39 Tm (de la guerra.) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 426.89 Tm () Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 470.04 426.89 Tm () Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 509.66 426.89 Tm () Tj ET
+0.75 0.78 0.72 RG 0.5 w
+50.00 409.89 495.28 29.00 re S
+218.40 438.89 m 218.40 409.89 l S
+466.04 438.89 m 466.04 409.89 l S
+505.66 438.89 m 505.66 409.89 l S
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 397.89 Tm (Unidad de objetivo y continuidad de la acción.) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 387.39 Tm (Acción ofensiva. Concentración y economía) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 376.89 Tm (de fuerzas. Maniobra. Sorpresa.) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 397.89 Tm (Planea y ejecuta operaciones cibernéticas, aplicando los principios de) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 387.39 Tm (la guerra, con la finalidad de impedir y/o dificultar las maniobras del) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 376.89 Tm (adversario, actuando en beneficio de la Institución.) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 470.04 397.89 Tm (7) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 509.66 397.89 Tm (2) Tj ET
+0.75 0.78 0.72 RG 0.5 w
+50.00 370.39 495.28 39.50 re S
+218.40 409.89 m 218.40 370.39 l S
+466.04 409.89 m 466.04 370.39 l S
+505.66 409.89 m 505.66 370.39 l S
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 358.39 Tm (Suma parcial de horas) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 358.39 Tm () Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 470.04 358.39 Tm (28) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 509.66 358.39 Tm (14) Tj ET
+0.75 0.78 0.72 RG 0.5 w
+50.00 351.89 495.28 18.50 re S
+218.40 370.39 m 218.40 351.89 l S
+466.04 370.39 m 466.04 351.89 l S
+505.66 370.39 m 505.66 351.89 l S
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 339.89 Tm (Evaluación 2/o. parcial.) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 339.89 Tm (Demuestra sus conocimientos, habilidades y destrezas adquiridas,) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 329.39 Tm (mediante la resolución de una prueba teórica y/o práctica.) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 470.04 339.89 Tm (1) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 509.66 339.89 Tm (1) Tj ET
+0.75 0.78 0.72 RG 0.5 w
+50.00 322.89 495.28 29.00 re S
+218.40 351.89 m 218.40 322.89 l S
+466.04 351.89 m 466.04 322.89 l S
+505.66 351.89 m 505.66 322.89 l S
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 310.89 Tm (Nivel operacional: Planeamiento y ejecución) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 300.39 Tm (de operaciones cibernéticas. Operaciones) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 289.89 Tm (cibernéticas en las operaciones mil) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 310.89 Tm (Diseña el planeamiento de operaciones en el ciberespacio con base) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 300.39 Tm (en las capacidades, recursos y medios tecnológicos de la Secretaría) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 289.89 Tm (de la Defensa Nacional, con el fin de aplicarlos a un nivel operac) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 470.04 310.89 Tm (7) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 509.66 310.89 Tm (2) Tj ET
+0.75 0.78 0.72 RG 0.5 w
+50.00 283.39 495.28 39.50 re S
+218.40 322.89 m 218.40 283.39 l S
+466.04 322.89 m 466.04 283.39 l S
+505.66 322.89 m 505.66 283.39 l S
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 271.39 Tm (Suma parcial de horas) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 271.39 Tm () Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 470.04 271.39 Tm (36) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 509.66 271.39 Tm (17) Tj ET
+0.75 0.78 0.72 RG 0.5 w
+50.00 264.89 495.28 18.50 re S
+218.40 283.39 m 218.40 264.89 l S
+466.04 283.39 m 466.04 264.89 l S
+505.66 283.39 m 505.66 264.89 l S
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 252.89 Tm (Capacidades cibernéticas y apoyo a las) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 242.39 Tm (operaciones de información. Operaciones de) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 231.89 Tm (información en las doctrinas militares) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 252.89 Tm (Analiza y argumenta los fundamentos de las operaciones de) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 242.39 Tm (información con la finalidad de estructurar las capacidades) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 231.89 Tm (cibernéticas dentro del Instituto Armado.) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 470.04 252.89 Tm (6) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 509.66 252.89 Tm (2) Tj ET
+0.75 0.78 0.72 RG 0.5 w
+50.00 225.39 495.28 39.50 re S
+218.40 264.89 m 218.40 225.39 l S
+466.04 264.89 m 466.04 225.39 l S
+505.66 264.89 m 505.66 225.39 l S
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 213.39 Tm (Conflicto armado, el ciberespacio y el derecho) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 202.89 Tm (internacional. Derecho de los conflictos) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 192.39 Tm (armados. Conducción de hostilida) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 213.39 Tm (Explica los fundamentos del derecho internacional aplicable al) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 202.89 Tm (empleo del ciberespacio en los conflictos armados, con el fin de) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 192.39 Tm (emplearlos en el planeamiento de operaciones de ciberdefensa.) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 470.04 213.39 Tm (5) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 509.66 213.39 Tm (2) Tj ET
+0.75 0.78 0.72 RG 0.5 w
+50.00 185.89 495.28 39.50 re S
+218.40 225.39 m 218.40 185.89 l S
+466.04 225.39 m 466.04 185.89 l S
+505.66 225.39 m 505.66 185.89 l S
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 173.89 Tm (Evaluación final.) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 173.89 Tm (Comprueba las habilidades adquiridas por medio de una prueba) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 163.39 Tm (teórica y/o práctica.) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 470.04 173.89 Tm (1) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 509.66 173.89 Tm (1) Tj ET
+0.75 0.78 0.72 RG 0.5 w
+50.00 156.89 495.28 29.00 re S
+218.40 185.89 m 218.40 156.89 l S
+466.04 185.89 m 466.04 156.89 l S
+505.66 185.89 m 505.66 156.89 l S
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 144.89 Tm (Total de horas) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 144.89 Tm (Total de horas) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 470.04 144.89 Tm (48) Tj ET
+BT /F1 8 Tf 0.10 0.13 0.09 rg 1 0 0 1 509.66 144.89 Tm (22) Tj ET
+0.75 0.78 0.72 RG 0.5 w
+50.00 138.39 495.28 18.50 re S
+218.40 156.89 m 218.40 138.39 l S
+466.04 156.89 m 466.04 138.39 l S
+505.66 156.89 m 505.66 138.39 l S
+BT /F2 12 Tf 1 0 0 1 50.00 127.99 Tm (Distribución de horas) Tj ET
+0.79 0.64 0.15 RG 1.5 w 50.00 115.99 m 120.00 115.99 l S
+0.18 0.23 0.17 rg 50.00 83.99 495.28 20.00 re f
+BT /F2 9.5 Tf 1.00 1.00 1.00 rg 1 0 0 1 54.00 90.49 Tm (No.) Tj ET
+BT /F2 9.5 Tf 1.00 1.00 1.00 rg 1 0 0 1 113.43 90.49 Tm (Actividades) Tj ET
+BT /F2 9.5 Tf 1.00 1.00 1.00 rg 1 0 0 1 440.32 90.49 Tm (Horas) Tj ET
+0.75 0.78 0.72 RG 0.5 w
+50.00 83.99 495.28 20.00 re S
+109.43 103.99 m 109.43 83.99 l S
+436.32 103.99 m 436.32 83.99 l S
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 3483 >>
+stream
+0.18 0.23 0.17 rg 50.00 771.89 495.28 20.00 re f
+BT /F2 9.5 Tf 1.00 1.00 1.00 rg 1 0 0 1 54.00 778.39 Tm (No.) Tj ET
+BT /F2 9.5 Tf 1.00 1.00 1.00 rg 1 0 0 1 113.43 778.39 Tm (Actividades) Tj ET
+BT /F2 9.5 Tf 1.00 1.00 1.00 rg 1 0 0 1 440.32 778.39 Tm (Horas) Tj ET
+0.75 0.78 0.72 RG 0.5 w
+50.00 771.89 495.28 20.00 re S
+109.43 791.89 m 109.43 771.89 l S
+436.32 791.89 m 436.32 771.89 l S
+BT /F1 9.5 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 758.39 Tm (I) Tj ET
+BT /F1 9.5 Tf 0.10 0.13 0.09 rg 1 0 0 1 113.43 758.39 Tm (Teóricas) Tj ET
+BT /F1 9.5 Tf 0.10 0.13 0.09 rg 1 0 0 1 440.32 758.39 Tm (45) Tj ET
+0.75 0.78 0.72 RG 0.5 w
+50.00 751.89 495.28 20.00 re S
+109.43 771.89 m 109.43 751.89 l S
+436.32 771.89 m 436.32 751.89 l S
+BT /F1 9.5 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 738.39 Tm (II) Tj ET
+BT /F1 9.5 Tf 0.10 0.13 0.09 rg 1 0 0 1 113.43 738.39 Tm (Prácticas) Tj ET
+BT /F1 9.5 Tf 0.10 0.13 0.09 rg 1 0 0 1 440.32 738.39 Tm (19) Tj ET
+0.75 0.78 0.72 RG 0.5 w
+50.00 731.89 495.28 20.00 re S
+109.43 751.89 m 109.43 731.89 l S
+436.32 751.89 m 436.32 731.89 l S
+BT /F1 9.5 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 718.39 Tm (III) Tj ET
+BT /F1 9.5 Tf 0.10 0.13 0.09 rg 1 0 0 1 113.43 718.39 Tm (Evaluaciones) Tj ET
+BT /F1 9.5 Tf 0.10 0.13 0.09 rg 1 0 0 1 440.32 718.39 Tm (6) Tj ET
+0.75 0.78 0.72 RG 0.5 w
+50.00 711.89 495.28 20.00 re S
+109.43 731.89 m 109.43 711.89 l S
+436.32 731.89 m 436.32 711.89 l S
+BT /F1 9.5 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 698.39 Tm () Tj ET
+BT /F1 9.5 Tf 0.10 0.13 0.09 rg 1 0 0 1 113.43 698.39 Tm (Total general) Tj ET
+BT /F1 9.5 Tf 0.10 0.13 0.09 rg 1 0 0 1 440.32 698.39 Tm (70) Tj ET
+0.75 0.78 0.72 RG 0.5 w
+50.00 691.89 495.28 20.00 re S
+109.43 711.89 m 109.43 691.89 l S
+436.32 711.89 m 436.32 691.89 l S
+BT /F2 12 Tf 1 0 0 1 50.00 681.49 Tm (Evaluación) Tj ET
+0.79 0.64 0.15 RG 1.5 w 50.00 669.49 m 120.00 669.49 l S
+0.18 0.23 0.17 rg 50.00 637.49 495.28 20.00 re f
+BT /F2 9.5 Tf 1.00 1.00 1.00 rg 1 0 0 1 54.00 643.99 Tm (Rubro) Tj ET
+BT /F2 9.5 Tf 1.00 1.00 1.00 rg 1 0 0 1 222.40 643.99 Tm (Componente) Tj ET
+BT /F2 9.5 Tf 1.00 1.00 1.00 rg 1 0 0 1 450.22 643.99 Tm (Ponderación) Tj ET
+0.75 0.78 0.72 RG 0.5 w
+50.00 637.49 495.28 20.00 re S
+218.40 657.49 m 218.40 637.49 l S
+446.22 657.49 m 446.22 637.49 l S
+BT /F1 9.5 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 623.99 Tm (Portafolio de evidencias) Tj ET
+BT /F1 9.5 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 623.99 Tm (Participación, actividades y rúbricas) Tj ET
+BT /F1 9.5 Tf 0.10 0.13 0.09 rg 1 0 0 1 450.22 623.99 Tm (60%) Tj ET
+0.75 0.78 0.72 RG 0.5 w
+50.00 617.49 495.28 20.00 re S
+218.40 637.49 m 218.40 617.49 l S
+446.22 637.49 m 446.22 617.49 l S
+BT /F1 9.5 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 603.99 Tm (Evaluación teórica y/o práctica) Tj ET
+BT /F1 9.5 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 603.99 Tm (Examen parcial) Tj ET
+BT /F1 9.5 Tf 0.10 0.13 0.09 rg 1 0 0 1 450.22 603.99 Tm (40%) Tj ET
+0.75 0.78 0.72 RG 0.5 w
+50.00 597.49 495.28 20.00 re S
+218.40 617.49 m 218.40 597.49 l S
+446.22 617.49 m 446.22 597.49 l S
+BT /F1 9.5 Tf 0.10 0.13 0.09 rg 1 0 0 1 54.00 583.99 Tm (Calificación final parcial) Tj ET
+BT /F1 9.5 Tf 0.10 0.13 0.09 rg 1 0 0 1 222.40 583.99 Tm () Tj ET
+BT /F1 9.5 Tf 0.10 0.13 0.09 rg 1 0 0 1 450.22 583.99 Tm (100%) Tj ET
+0.75 0.78 0.72 RG 0.5 w
+50.00 577.49 495.28 20.00 re S
+218.40 597.49 m 218.40 577.49 l S
+446.22 597.49 m 446.22 577.49 l S
+BT /F1 8 Tf 1 0 0 1 50.00 569.49 Tm (Fuente: Programa de estudios de la asignatura Operaciones de Ciberdefensa, Escuela Militar de Ingeniería.) Tj ET
+endstream
+endobj
+xref
+0 11
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000206 00000 n 
+0000000303 00000 n 
+0000000405 00000 n 
+0000000468 00000 n 
+0000006782 00000 n 
+0000006845 00000 n 
+0000022143 00000 n 
+0000022207 00000 n 
+trailer
+<< /Size 11 /Root 1 0 R >>
+startxref
+25742
+%%EOF

@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<!--
+  ============================================================================
+  PORTAL INSTITUCIONAL DE TESIS — Escuela Militar de Ingeniería (EMI)
+  Maestría en Ciberseguridad y Ciberdefensa
+  ----------------------------------------------------------------------------
+  "Propuesta de un Modelo Pedagógico para la Planeación de Operaciones de
+   Ciberdefensa basado en la Metodología del Planeamiento Táctico (ADM)"
+
+  Repositorio digital + demostración del modelo pedagógico (trazabilidad
+  completa: programa → plan → modelo → productos → IPB-MDMP → evaluación).
+  Stack: HTML5 + CSS3 + JavaScript Vanilla. Sin dependencias. GitHub Pages.
+  Autor: Tte. Trans. Marco Yair Barrios Jaime
+  ============================================================================
+-->
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ===================== SEO ===================== -->
+  <title>Modelo Pedagógico de Ciberdefensa (ADM) | Repositorio Digital — EMI</title>
+  <meta name="description" content="Repositorio digital y demostración del Modelo Pedagógico para la Planeación de Operaciones de Ciberdefensa basado en la Metodología del Planeamiento Táctico (ADM), NIST CSF 2.0 y MITRE ATT&CK. Escuela Militar de Ingeniería." />
+  <meta name="keywords" content="ciberdefensa, ciberseguridad, modelo pedagógico, ADM, planeamiento táctico, MDMP, IPB, NIST CSF 2.0, MITRE ATT&CK, EMI, tesis" />
+  <meta name="author" content="Marco Yair Barrios Jaime" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#2e3b2c" />
+  <link rel="canonical" href="https://ejemplo.github.io/tesis-ciberdefensa/" />
+
+  <!-- ===================== OPEN GRAPH ===================== -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_ES" />
+  <meta property="og:site_name" content="Repositorio Digital de Tesis — EMI" />
+  <meta property="og:title" content="Modelo Pedagógico de Ciberdefensa basado en ADM" />
+  <meta property="og:description" content="Repositorio digital y demostración del modelo pedagógico de planeación de operaciones de ciberdefensa — EMI." />
+  <meta property="og:url" content="https://ejemplo.github.io/tesis-ciberdefensa/" />
+  <meta property="og:image" content="img/og-image.png" />
+
+  <!-- ===================== TWITTER CARD ===================== -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Modelo Pedagógico de Ciberdefensa basado en ADM" />
+  <meta name="twitter:description" content="Repositorio digital y demostración del modelo pedagógico — EMI." />
+  <meta name="twitter:image" content="img/og-image.png" />
+
+  <!-- ===================== FAVICON / PWA ===================== -->
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/icons/icon-512.png?v=3" />
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/icons/icon-192.png?v=3" />
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico?v=3" />
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.png?v=3" />
+  <link rel="manifest" href="manifest.json" />
+
+  <!-- ===================== ESTILOS ===================== -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- ===================== JSON-LD ===================== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "name": "Propuesta de un Modelo Pedagógico para la Planeación de Operaciones de Ciberdefensa basado en la Metodología del Planeamiento Táctico (ADM)",
+    "author": { "@type": "Person", "name": "Marco Yair Barrios Jaime" },
+    "publisher": { "@type": "CollegeOrUniversity", "name": "Escuela Militar de Ingeniería (EMI)" },
+    "inLanguage": "es",
+    "about": ["Ciberdefensa", "Ciberseguridad", "Modelo pedagógico", "ADM", "NIST CSF 2.0", "MITRE ATT&CK"]
+  }
+  </script>
+</head>
+
+<body>
+
+  <!-- ================= LOADER ================= -->
+  <div id="loader" class="loader" role="status" aria-live="polite" aria-label="Cargando contenido">
+    <div class="loader__spinner" aria-hidden="true"></div>
+    <p class="loader__text">Cargando portal institucional…</p>
+  </div>
+
+  <!-- ================= BARRA DE PROGRESO ================= -->
+  <div id="reading-progress" class="reading-progress" role="progressbar" aria-label="Progreso de lectura" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+    <div id="reading-progress-bar" class="reading-progress__bar"></div>
+  </div>
+
+  <!-- ================= SKIP LINK ================= -->
+  <a href="#main" class="skip-link">Saltar al contenido principal</a>
+
+  <!-- ================= HEADER / NAV ================= -->
+  <header id="site-header" class="site-header" role="banner">
+    <div class="container site-header__inner">
+      <a class="brand" href="#inicio" aria-label="Inicio — Repositorio digital de tesis">
+        <img class="brand__logo" src="assets/logo.png" width="42" height="42" alt="" aria-hidden="true" />
+        <span class="brand__text">
+          <strong class="brand__title">Repositorio de Tesis</strong>
+          <small class="brand__subtitle">Ciberseguridad y Ciberdefensa — EMI</small>
+        </span>
+      </a>
+
+      <div class="search" role="search">
+        <label for="search-input" class="sr-only">Buscar en el portal</label>
+        <input type="search" id="search-input" class="search__input" placeholder="Buscar secciones, etapas, documentos…" autocomplete="off" aria-describedby="search-help" />
+        <span id="search-help" class="sr-only">Filtra las tarjetas, etapas del modelo y documentos.</span>
+        <span class="search__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="18" height="18"><path d="M21 21l-4.3-4.3M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </span>
+      </div>
+
+      <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Abrir menú de navegación">
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+      </button>
+
+      <nav id="primary-nav" class="primary-nav" aria-label="Navegación principal">
+        <ul class="primary-nav__list">
+          <li><a href="#inicio" class="primary-nav__link">Inicio</a></li>
+          <li><a href="#proyecto" class="primary-nav__link">Proyecto</a></li>
+          <li><a href="#modelo" class="primary-nav__link">Modelo</a></li>
+          <li><a href="#consentimiento" class="primary-nav__link">Consentimiento</a></li>
+          <li><a href="#repositorio" class="primary-nav__link">Repositorio</a></li>
+          <li><a href="#galeria" class="primary-nav__link">Galería</a></li>
+          <li><a href="#investigador" class="primary-nav__link">Investigador</a></li>
+          <li><a href="#contacto" class="primary-nav__link">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ================= BREADCRUMB ================= -->
+  <nav class="breadcrumb" aria-label="Ruta de navegación">
+    <div class="container">
+      <ol class="breadcrumb__list">
+        <li class="breadcrumb__item"><a href="#inicio">Inicio</a></li>
+        <li class="breadcrumb__item" id="breadcrumb-current" aria-current="page">Inicio</li>
+      </ol>
+    </div>
+  </nav>
+
+  <!-- ================= MAIN ================= -->
+  <main id="main" role="main">
+
+    <!-- ===================== 1. HERO ===================== -->
+    <section id="inicio" class="section hero" tabindex="-1" aria-labelledby="hero-title">
+      <img class="hero__bg" src="assets/hero.jpg" alt="" aria-hidden="true" />
+      <div class="container hero__inner">
+        <div class="hero__content reveal">
+          <p class="hero__eyebrow">Maestría en Ciberseguridad y Ciberdefensa · EMI</p>
+          <h1 id="hero-title" class="hero__title">Modelo Pedagógico para la Planeación de Operaciones de Ciberdefensa</h1>
+          <p class="hero__subtitle">
+            Propuesta formativa basada en la <strong>Metodología del Planeamiento Táctico (ADM)</strong>,
+            articulada con <strong>NIST CSF 2.0</strong> y <strong>MITRE ATT&amp;CK</strong>.
+          </p>
+          <p class="hero__lead">
+            Este portal no es solo un repositorio: es una <strong>demostración digital</strong> del modelo,
+            que evidencia la trazabilidad completa entre el programa de estudios, el plan de clase, la
+            implementación del modelo, los productos de aprendizaje, los instrumentos de evaluación y el
+            entregable integrador (IPB–MDMP).
+          </p>
+          <div class="hero__actions">
+            <a href="#proyecto" class="btn btn--gold">Explorar investigación</a>
+            <a href="#repositorio" class="btn btn--ghost">Repositorio</a>
+          </div>
+          <ul class="hero__chips" aria-label="Datos de la investigación">
+            <li class="hero__chip"><span>Nivel</span><strong>Maestría</strong></li>
+            <li class="hero__chip"><span>Metodología</span><strong>ADM / MDMP</strong></li>
+            <li class="hero__chip"><span>Marcos</span><strong>NIST CSF 2.0 · MITRE ATT&amp;CK</strong></li>
+            <li class="hero__chip"><span>Institución</span><strong>EMI</strong></li>
+          </ul>
+        </div>
+
+        <figure class="hero__emblem reveal">
+          <!-- Emblema institucional. Reemplace assets/emblema.png por la versión definitiva. -->
+          <img src="assets/emblema.png" alt="Emblema de la Maestría en Ciberseguridad y Ciberdefensa — México" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===================== 2. ACERCA DEL PROYECTO ===================== -->
+    <section id="proyecto" class="section section--alt" tabindex="-1" aria-labelledby="proyecto-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-head__eyebrow">El proyecto</p>
+          <h2 id="proyecto-title" class="section-head__title">Acerca de la investigación</h2>
+          <p class="section-head__desc">Componentes científicos y doctrinarios que sustentan el modelo pedagógico propuesto.</p>
+        </header>
+
+        <div class="cards--grid" data-searchable-group>
+          <article class="card reveal" data-searchable tabindex="0">
+            <div class="card__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="1" fill="currentColor"/></svg>
+            </div>
+            <h3 class="card__title">Objetivo</h3>
+            <p class="card__text">Diseñar un modelo pedagógico para formar competencias de planeación de operaciones de ciberdefensa, integrando la metodología ADM con marcos internacionales de ciberseguridad.</p>
+            <span class="card__tag">Propósito</span>
+          </article>
+
+          <article class="card reveal" data-searchable tabindex="0">
+            <div class="card__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24"><path d="M9 3h6M10 3v5l-5 9a2 2 0 0 0 2 3h10a2 2 0 0 0 2-3l-5-9V3" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+            </div>
+            <h3 class="card__title">Hipótesis</h3>
+            <p class="card__text">Un modelo basado en ADM, alineado con NIST CSF 2.0 y MITRE ATT&amp;CK, mejora significativamente las competencias de planeamiento de ciberdefensa de los participantes.</p>
+            <span class="card__tag">Supuesto</span>
+          </article>
+
+          <article class="card reveal" data-searchable tabindex="0">
+            <div class="card__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24"><path d="M3 12l9-9 9 9M5 10v10h14V10" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+            </div>
+            <h3 class="card__title">Metodología</h3>
+            <p class="card__text">Enfoque mixto con diseño cuasi-experimental: instrumentos validados, rúbricas de desempeño y matrices de evaluación sobre un proceso de planeamiento por fases.</p>
+            <span class="card__tag">Investigación</span>
+          </article>
+
+          <article class="card reveal" data-searchable tabindex="0">
+            <div class="card__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24"><path d="M22 10L12 5 2 10l10 5 10-5zM6 12v5c0 1 3 3 6 3s6-2 6-3v-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+            </div>
+            <h3 class="card__title">Competencias</h3>
+            <p class="card__text">Análisis del entorno cibernético, definición del problema, desarrollo de líneas de acción, toma de decisiones y producción de la orden de operaciones.</p>
+            <span class="card__tag">Aprendizaje</span>
+          </article>
+
+          <article class="card reveal" data-searchable tabindex="0">
+            <div class="card__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24"><path d="M4 19V5M4 19h16M8 16l3-4 3 2 4-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3 class="card__title">ADM</h3>
+            <p class="card__text">La Metodología del Planeamiento Táctico (Army Design Methodology) aporta el razonamiento operacional: enmarcar el entorno, el problema y la aproximación a la solución.</p>
+            <span class="card__tag">Doctrina</span>
+          </article>
+
+          <article class="card reveal" data-searchable tabindex="0">
+            <div class="card__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+            </div>
+            <h3 class="card__title">NIST CSF 2.0</h3>
+            <p class="card__text">Las funciones Gobernar, Identificar, Proteger, Detectar, Responder y Recuperar estructuran las capacidades de ciberseguridad desarrolladas en el planeamiento.</p>
+            <span class="card__tag">Marco</span>
+          </article>
+
+          <article class="card reveal" data-searchable tabindex="0">
+            <div class="card__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24"><path d="M3 6l9-3 9 3-9 3-9-3zM3 6v12l9 3 9-3V6M12 9v12" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+            </div>
+            <h3 class="card__title">MITRE ATT&amp;CK</h3>
+            <p class="card__text">Base de conocimiento de tácticas y técnicas adversarias que alimenta el análisis de amenazas (IPB) y la construcción de escenarios realistas.</p>
+            <span class="card__tag">Marco</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 3. MODELO PEDAGÓGICO (TRAZABILIDAD) ===================== -->
+    <section id="modelo" class="section" tabindex="-1" aria-labelledby="modelo-title">
+      <div class="container">
+        <header class="section-head section-head--center reveal">
+          <p class="section-head__eyebrow">Demostración del modelo</p>
+          <h2 id="modelo-title" class="section-head__title">Modelo Pedagógico — Trazabilidad completa</h2>
+          <p class="section-head__desc">
+            Cada etapa muestra qué <strong>recibe</strong> (entradas) y qué <strong>produce</strong> (salidas),
+            enlazando con su documento. Un sinodal puede comprender la implementación íntegra del modelo sin
+            necesidad de abrir los descargables. Pulse cada etapa para expandirla.
+          </p>
+        </header>
+
+        <!-- Cadena de trazabilidad (resumen navegable) -->
+        <div class="chain reveal" role="list" aria-label="Cadena de trazabilidad del modelo">
+          <button class="chain__node" type="button" data-chain-target="1" role="listitem"><span class="chain__step">ETAPA 1</span><span class="chain__label">Programa</span></button>
+          <span class="chain__arrow" aria-hidden="true">→</span>
+          <button class="chain__node" type="button" data-chain-target="2" role="listitem"><span class="chain__step">ETAPA 2–3</span><span class="chain__label">Plan / Ejercicio</span></button>
+          <span class="chain__arrow" aria-hidden="true">→</span>
+          <button class="chain__node" type="button" data-chain-target="4" role="listitem"><span class="chain__step">ETAPA 4–5</span><span class="chain__label">ADM / Productos</span></button>
+          <span class="chain__arrow" aria-hidden="true">→</span>
+          <button class="chain__node" type="button" data-chain-target="6" role="listitem"><span class="chain__step">ETAPA 6</span><span class="chain__label">IPB–MDMP</span></button>
+          <span class="chain__arrow" aria-hidden="true">→</span>
+          <button class="chain__node" type="button" data-chain-target="7" role="listitem"><span class="chain__step">ETAPA 7–8</span><span class="chain__label">Evaluación / Resultados</span></button>
+        </div>
+
+        <!-- Controles del acordeón -->
+        <div class="tl-controls reveal" style="margin-top: var(--sp-4)">
+          <button id="tl-expand" class="btn btn--small btn--ghost" type="button">Expandir todo</button>
+          <button id="tl-collapse" class="btn btn--small btn--ghost" type="button">Contraer todo</button>
+        </div>
+
+        <!-- Línea de tiempo (se genera dinámicamente desde script.js) -->
+        <div id="timeline" class="timeline"></div>
+      </div>
+    </section>
+
+    <!-- ===================== 4. CONSENTIMIENTO INFORMADO ===================== -->
+    <section id="consentimiento" class="section section--alt" tabindex="-1" aria-labelledby="consentimiento-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-head__eyebrow">Ética de la investigación</p>
+          <h2 id="consentimiento-title" class="section-head__title">Consentimiento Informado Digital</h2>
+          <p class="section-head__desc">
+            Lea la información, firme digitalmente y descargue su PDF. Todo ocurre en su navegador:
+            <strong>no se envía información a ningún servidor</strong>.
+          </p>
+        </header>
+
+        <div class="consent reveal">
+          <div id="consent-text" class="consent__text" aria-live="polite"></div>
+
+          <form id="consent-form" class="consent__form" novalidate>
+            <fieldset class="consent__fieldset">
+              <legend class="consent__legend">Datos del participante</legend>
+              <div class="form-grid">
+                <div class="form-field">
+                  <label for="c-nombre">Nombre completo <span class="req" aria-hidden="true">*</span></label>
+                  <input type="text" id="c-nombre" name="nombre" required autocomplete="name" aria-required="true" />
+                  <p class="form-error" id="err-nombre" role="alert" hidden>Ingrese su nombre completo.</p>
+                </div>
+                <div class="form-field">
+                  <label for="c-grado">Grado militar / Título <span class="req" aria-hidden="true">*</span></label>
+                  <input type="text" id="c-grado" name="grado" required placeholder="Ej. Teniente, Mayor, Ing." aria-required="true" />
+                  <p class="form-error" id="err-grado" role="alert" hidden>Ingrese su grado o título.</p>
+                </div>
+                <div class="form-field">
+                  <label for="c-institucion">Institución <span class="req" aria-hidden="true">*</span></label>
+                  <input type="text" id="c-institucion" name="institucion" required value="Escuela Militar de Ingeniería" aria-required="true" />
+                  <p class="form-error" id="err-institucion" role="alert" hidden>Ingrese la institución.</p>
+                </div>
+                <div class="form-field">
+                  <label for="c-correo">Correo electrónico <span class="req" aria-hidden="true">*</span></label>
+                  <input type="email" id="c-correo" name="correo" required autocomplete="email" placeholder="nombre@dominio.edu" aria-required="true" />
+                  <p class="form-error" id="err-correo" role="alert" hidden>Ingrese un correo válido.</p>
+                </div>
+                <div class="form-field">
+                  <label for="c-fecha">Fecha</label>
+                  <input type="text" id="c-fecha" name="fecha" readonly aria-readonly="true" />
+                  <p class="form-hint">Generada automáticamente.</p>
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset class="consent__fieldset">
+              <legend class="consent__legend">Firma digital</legend>
+              <p class="form-hint">Firme dentro del recuadro con el mouse o el dedo (pantalla táctil).</p>
+              <div class="signature">
+                <canvas id="signature-pad" class="signature__pad" width="600" height="200" role="img" aria-label="Área de firma digital"></canvas>
+                <div class="signature__actions">
+                  <button type="button" id="signature-clear" class="btn btn--small btn--ghost">Limpiar firma</button>
+                  <span id="signature-status" class="signature__status" aria-live="polite">Sin firma</span>
+                </div>
+              </div>
+
+              <label class="consent__check">
+                <input type="checkbox" id="c-acepto" name="acepto" required aria-required="true" />
+                <span>He leído y acepto los términos del presente consentimiento informado.</span>
+              </label>
+              <p class="form-error" id="err-acepto" role="alert" hidden>Debe aceptar los términos para continuar.</p>
+            </fieldset>
+
+            <div class="consent__submit">
+              <button type="submit" id="consent-submit" class="btn btn--primary btn--lg">Firmar</button>
+              <button type="button" id="consent-download" class="btn btn--gold btn--lg" disabled>Descargar consentimiento</button>
+            </div>
+            <p id="consent-feedback" class="consent__feedback" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 5. REPOSITORIO DOCUMENTAL ===================== -->
+    <section id="repositorio" class="section" tabindex="-1" aria-labelledby="repositorio-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-head__eyebrow">Documentación</p>
+          <h2 id="repositorio-title" class="section-head__title">Repositorio documental</h2>
+          <p class="section-head__desc">Productos de la investigación: visualícelos en el visor integrado o descárguelos.</p>
+        </header>
+
+        <div class="cards--grid" data-searchable-group>
+
+          <article class="doc-card reveal" data-searchable data-file="pdf/ipb-mdmp.pdf" data-title="IPB–MDMP">
+            <div class="doc-card__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zM14 2v6h6" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+            </div>
+            <h3 class="doc-card__title">IPB–MDMP</h3>
+            <p class="doc-card__desc">Preparación de inteligencia del campo de batalla integrada al proceso de decisión militar. Entregable integrador.</p>
+            <p class="doc-card__meta">PDF · documento principal</p>
+            <div class="doc-card__actions">
+              <button class="btn btn--small btn--primary" type="button" data-view>Visualizar</button>
+              <a class="btn btn--small btn--ghost" href="pdf/ipb-mdmp.pdf" download>Descargar</a>
+            </div>
+          </article>
+
+          <article class="doc-card reveal" data-searchable data-file="pdf/plan-clase.pdf" data-title="Plan de clase">
+            <div class="doc-card__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24"><path d="M4 5h16v14H4zM4 9h16M9 5v14" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+            </div>
+            <h3 class="doc-card__title">Plan de clase</h3>
+            <p class="doc-card__desc">Planificación didáctica de la unidad de aprendizaje aplicada al modelo.</p>
+            <p class="doc-card__meta">PDF</p>
+            <div class="doc-card__actions">
+              <button class="btn btn--small btn--primary" type="button" data-view>Visualizar</button>
+              <a class="btn btn--small btn--ghost" href="pdf/plan-clase.pdf" download>Descargar</a>
+            </div>
+          </article>
+
+          <article class="doc-card reveal" data-searchable data-file="pdf/programa.pdf" data-title="Programa de estudios">
+            <div class="doc-card__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24"><path d="M4 4h12l4 4v12H4zM16 4v4h4M8 13h8M8 17h6" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+            </div>
+            <h3 class="doc-card__title">Programa</h3>
+            <p class="doc-card__desc">Estructura curricular, competencias y resultados de aprendizaje.</p>
+            <p class="doc-card__meta">PDF</p>
+            <div class="doc-card__actions">
+              <button class="btn btn--small btn--primary" type="button" data-view>Visualizar</button>
+              <a class="btn btn--small btn--ghost" href="pdf/programa.pdf" download>Descargar</a>
+            </div>
+          </article>
+
+          <article class="doc-card reveal" data-searchable data-file="pdf/instrumentos.pdf" data-title="Instrumentos">
+            <div class="doc-card__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24"><path d="M5 5h14v14H5zM9 9h6M9 13h6M9 17h3" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+            </div>
+            <h3 class="doc-card__title">Instrumentos</h3>
+            <p class="doc-card__desc">Cuestionarios y pruebas de medición pre y post intervención.</p>
+            <p class="doc-card__meta">PDF</p>
+            <div class="doc-card__actions">
+              <button class="btn btn--small btn--primary" type="button" data-view>Visualizar</button>
+              <a class="btn btn--small btn--ghost" href="pdf/instrumentos.pdf" download>Descargar</a>
+            </div>
+          </article>
+
+          <article class="doc-card reveal" data-searchable data-file="pdf/matrices.pdf" data-title="Matrices">
+            <div class="doc-card__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24"><path d="M4 4h16v16H4zM4 10h16M4 15h16M10 4v16M15 4v16" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+            </div>
+            <h3 class="doc-card__title">Matrices</h3>
+            <p class="doc-card__desc">Matrices de decisión, de líneas de acción y de sincronización del planeamiento.</p>
+            <p class="doc-card__meta">PDF</p>
+            <div class="doc-card__actions">
+              <button class="btn btn--small btn--primary" type="button" data-view>Visualizar</button>
+              <a class="btn btn--small btn--ghost" href="pdf/matrices.pdf" download>Descargar</a>
+            </div>
+          </article>
+
+          <article class="doc-card reveal" data-searchable data-file="pdf/rubricas.pdf" data-title="Rúbricas">
+            <div class="doc-card__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24"><path d="M9 11l3 3L22 4M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3 class="doc-card__title">Rúbricas</h3>
+            <p class="doc-card__desc">Criterios de evaluación por competencias y niveles de logro.</p>
+            <p class="doc-card__meta">PDF</p>
+            <div class="doc-card__actions">
+              <button class="btn btn--small btn--primary" type="button" data-view>Visualizar</button>
+              <a class="btn btn--small btn--ghost" href="pdf/rubricas.pdf" download>Descargar</a>
+            </div>
+          </article>
+
+          <article class="doc-card reveal" data-searchable data-file="pdf/consentimiento.pdf" data-title="Consentimiento (plantilla)">
+            <div class="doc-card__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zM9 13l2 2 4-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3 class="doc-card__title">Consentimiento</h3>
+            <p class="doc-card__desc">Plantilla del consentimiento informado. La versión firmable se genera en la sección anterior.</p>
+            <p class="doc-card__meta">PDF · plantilla</p>
+            <div class="doc-card__actions">
+              <button class="btn btn--small btn--primary" type="button" data-view>Visualizar</button>
+              <a class="btn btn--small btn--ghost" href="pdf/consentimiento.pdf" download>Descargar</a>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Visor integrado -->
+        <div id="viewer" class="viewer" role="dialog" aria-modal="true" aria-labelledby="viewer-title" hidden>
+          <div class="viewer__backdrop" data-close-viewer></div>
+          <div class="viewer__panel">
+            <div class="viewer__bar">
+              <h3 id="viewer-title" class="viewer__title">Visor de documento</h3>
+              <div class="viewer__bar-actions">
+                <a id="viewer-download" class="btn btn--small btn--ghost" href="#" download>Descargar</a>
+                <button class="viewer__close" type="button" data-close-viewer aria-label="Cerrar visor">✕</button>
+              </div>
+            </div>
+            <iframe id="viewer-frame" class="viewer__frame" title="Vista previa del documento"></iframe>
+            <p id="viewer-fallback" class="viewer__fallback" hidden>
+              Este formato no puede previsualizarse en el navegador.
+              <a id="viewer-fallback-link" href="#" download>Descárguelo aquí.</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 6. GALERÍA ===================== -->
+    <section id="galeria" class="section section--alt" tabindex="-1" aria-labelledby="galeria-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-head__eyebrow">Visual</p>
+          <h2 id="galeria-title" class="section-head__title">Galería del modelo</h2>
+          <p class="section-head__desc">Representaciones del modelo, su arquitectura y la cadena de trazabilidad. Haga clic para ampliar.</p>
+        </header>
+
+        <div class="gallery">
+          <figure class="gallery__item reveal">
+            <button type="button" class="gallery__btn" data-lightbox="img/modelo.png" data-caption="Modelo pedagógico — visión general">
+              <img src="img/modelo.png" alt="Esquema del modelo pedagógico de ciberdefensa" loading="lazy" />
+            </button>
+            <figcaption class="gallery__caption">Modelo pedagógico</figcaption>
+          </figure>
+          <figure class="gallery__item reveal">
+            <button type="button" class="gallery__btn" data-lightbox="img/arquitectura.png" data-caption="Arquitectura de capacidades de ciberdefensa">
+              <img src="img/arquitectura.png" alt="Diagrama de la arquitectura del modelo" loading="lazy" />
+            </button>
+            <figcaption class="gallery__caption">Arquitectura</figcaption>
+          </figure>
+          <figure class="gallery__item reveal">
+            <button type="button" class="gallery__btn" data-lightbox="img/diagramas.png" data-caption="Cadena de trazabilidad del modelo">
+              <img src="img/diagramas.png" alt="Diagrama de la cadena de trazabilidad" loading="lazy" />
+            </button>
+            <figcaption class="gallery__caption">Cadena de trazabilidad</figcaption>
+          </figure>
+        </div>
+
+        <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Imagen ampliada" hidden>
+          <button class="lightbox__close" type="button" data-close-lightbox aria-label="Cerrar imagen ampliada">✕</button>
+          <button class="lightbox__nav lightbox__nav--prev" type="button" data-lightbox-prev aria-label="Imagen anterior">‹</button>
+          <figure class="lightbox__figure">
+            <img id="lightbox-img" class="lightbox__img" src="" alt="" />
+            <figcaption id="lightbox-caption" class="lightbox__caption"></figcaption>
+          </figure>
+          <button class="lightbox__nav lightbox__nav--next" type="button" data-lightbox-next aria-label="Imagen siguiente">›</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 7. INVESTIGADOR ===================== -->
+    <section id="investigador" class="section" tabindex="-1" aria-labelledby="investigador-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-head__eyebrow">Autoría</p>
+          <h2 id="investigador-title" class="section-head__title">Acerca del investigador</h2>
+        </header>
+
+        <div class="profile reveal">
+          <div class="profile__avatar">
+            <!-- Fotografía del investigador. Coloque el archivo en assets/investigador.jpg -->
+            <img src="assets/investigador.png" alt="Fotografía del investigador, Tte. Trans. Marco Yair Barrios Jaime" />
+          </div>
+          <div class="profile__body">
+            <dl class="profile__list">
+              <div><dt>Autor</dt><dd>Tte. Trans. Marco Yair Barrios Jaime</dd></div>
+              <div><dt>Asesor de Tesis</dt><dd>Tte. Cor. I.C.E. Jesús Concepción López Millán</dd></div>
+              <div><dt>Institución</dt><dd>Escuela Militar de Ingeniería (EMI)</dd></div>
+              <div><dt>Programa</dt><dd>Maestría en Ciberseguridad y Ciberdefensa</dd></div>
+              <div><dt>Correo</dt><dd><a href="mailto:mybarriosj@emings.onmicrosoft.com">mybarriosj@emings.onmicrosoft.com</a></dd></div>
+              <div><dt>ORCID</dt><dd><a href="https://orcid.org/0009-0004-2056-7095" target="_blank" rel="noopener">0009-0004-2056-7095</a></dd></div>
+            </dl>
+          </div>
+        </div>
+
+        <!-- QR integrado en la sección final -->
+        <div class="qr reveal" style="margin-top: var(--sp-5)">
+          <div class="qr__text">
+            <p class="section-head__eyebrow">Acceso móvil</p>
+            <h3 class="section-head__title" style="font-size: var(--fs-lg)">Consulta mediante código QR</h3>
+            <p>Este repositorio puede consultarse escaneando el <strong>código QR impreso en la tesis</strong>, que enlaza directamente a esta dirección. Sustituya la imagen por el QR definitivo una vez publicada la URL en GitHub Pages.</p>
+          </div>
+          <div class="qr__code">
+            <img src="img/qr-placeholder.svg" alt="Código QR de acceso al repositorio (marcador de posición)" width="220" height="220" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 8. CONTACTO ===================== -->
+    <section id="contacto" class="section section--alt" tabindex="-1" aria-labelledby="contacto-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-head__eyebrow">Comunicación</p>
+          <h2 id="contacto-title" class="section-head__title">Contacto</h2>
+          <p class="section-head__desc">Formulario de contacto. Al enviar se abre su cliente de correo (sitio estático, sin servidor).</p>
+        </header>
+
+        <form id="contact-form" class="contact-form reveal" novalidate>
+          <div class="form-grid">
+            <div class="form-field">
+              <label for="ct-nombre">Nombre <span class="req" aria-hidden="true">*</span></label>
+              <input type="text" id="ct-nombre" name="nombre" required aria-required="true" />
+            </div>
+            <div class="form-field">
+              <label for="ct-correo">Correo <span class="req" aria-hidden="true">*</span></label>
+              <input type="email" id="ct-correo" name="correo" required aria-required="true" />
+            </div>
+            <div class="form-field form-field--full">
+              <label for="ct-asunto">Asunto</label>
+              <input type="text" id="ct-asunto" name="asunto" />
+            </div>
+            <div class="form-field form-field--full">
+              <label for="ct-mensaje">Mensaje <span class="req" aria-hidden="true">*</span></label>
+              <textarea id="ct-mensaje" name="mensaje" rows="5" required aria-required="true"></textarea>
+            </div>
+          </div>
+          <button type="submit" class="btn btn--primary">Enviar mensaje</button>
+          <p id="contact-feedback" class="consent__feedback" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= VOLVER ARRIBA ================= -->
+  <button id="back-to-top" class="back-to-top" type="button" aria-label="Volver arriba" hidden>
+    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container site-footer__grid">
+      <div class="site-footer__col">
+        <div class="site-footer__brand">
+          <img src="assets/logo.png" width="44" height="44" alt="" aria-hidden="true" />
+          <p class="site-footer__title">Repositorio Digital de Tesis</p>
+        </div>
+        <p class="site-footer__desc">Maestría en Ciberseguridad y Ciberdefensa — Escuela Militar de Ingeniería.</p>
+      </div>
+      <nav class="site-footer__col" aria-label="Enlaces del pie de página">
+        <h4 class="site-footer__heading">Navegación</h4>
+        <ul class="site-footer__links">
+          <li><a href="#proyecto">Proyecto</a></li>
+          <li><a href="#modelo">Modelo Pedagógico</a></li>
+          <li><a href="#consentimiento">Consentimiento</a></li>
+          <li><a href="#repositorio">Repositorio</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="site-footer__col">
+        <h4 class="site-footer__heading">Aviso</h4>
+        <p class="site-footer__desc">Sitio académico complementario. Los logotipos institucionales se incorporarán con la autorización correspondiente. Material con fines educativos y de investigación.</p>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      <div class="container">
+        <p>© <span id="footer-year">2026</span> Marco Yair Barrios Jaime · Escuela Militar de Ingeniería. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= SCRIPT ================= -->
+  <script src="js/script.js" defer></script>
+</body>
+</html>

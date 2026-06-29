@@ -1,0 +1,9 @@
+# Archivos fuente que el sitio NO referencia (evitar publicarlos)
+/IPB-MDMP-CRITICAL.docx
+/PLAN_DE_CLASES_19.docx
+/main_corregido_v15.pdf
+
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store

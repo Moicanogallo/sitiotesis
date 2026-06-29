@@ -1,0 +1,18 @@
+{
+  "name": "Repositorio Digital de Tesis — Ciberdefensa EMI",
+  "short_name": "Tesis Ciberdefensa",
+  "description": "Repositorio digital y demostración del Modelo Pedagógico para la Planeación de Operaciones de Ciberdefensa basado en la Metodología del Planeamiento Táctico (ADM).",
+  "lang": "es",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#1f291d",
+  "theme_color": "#2e3b2c",
+  "icons": [
+    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

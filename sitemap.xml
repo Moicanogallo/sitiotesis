@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Mapa del sitio (una sola página con secciones por ancla).
+  Actualice <loc> con la URL real de GitHub Pages al publicar.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://ejemplo.github.io/tesis-ciberdefensa/</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url><loc>https://ejemplo.github.io/tesis-ciberdefensa/#proyecto</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ejemplo.github.io/tesis-ciberdefensa/#modelo</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://ejemplo.github.io/tesis-ciberdefensa/#consentimiento</loc><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ejemplo.github.io/tesis-ciberdefensa/#repositorio</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://ejemplo.github.io/tesis-ciberdefensa/#galeria</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://ejemplo.github.io/tesis-ciberdefensa/#investigador</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://ejemplo.github.io/tesis-ciberdefensa/#contacto</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+</urlset>
