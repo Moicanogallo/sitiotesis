@@ -207,7 +207,7 @@ document.addEventListener('DOMContentLoaded', function () {
       desc: 'Núcleo del modelo. Aplica la Army Design Methodology: enmarcar el entorno, enmarcar el problema y desarrollar la aproximación a la solución, adaptada al dominio cibernético.',
       in: ['Escenario del ejercicio integrador (etapa 3)'],
       out: ['Entorno operacional enmarcado', 'Problema definido', 'Aproximación a la solución'],
-      file: 'pdf/ipb-mdmp.pdf', fileLabel: 'Documento IPB–MDMP'
+      file: 'pdf/matrices.pdf', fileLabel: 'Matriz de integración (ADM–NIST–MITRE)'
     },
     {
       n: 5, title: 'Productos de aprendizaje', sub: 'Salidas tangibles del planeamiento',
@@ -221,7 +221,7 @@ document.addEventListener('DOMContentLoaded', function () {
       desc: 'Preparación de Inteligencia del Campo de Batalla integrada al Proceso de Toma de Decisiones Militares, enriquecida con MITRE ATT&CK. Es el entregable que demuestra la implementación completa del modelo.',
       in: ['Productos de aprendizaje (etapa 5)'],
       out: ['Análisis de amenazas (ATT&CK)', 'Calcos y matrices IPB', 'Recomendación de decisión'],
-      file: 'pdf/ipb-mdmp.pdf', fileLabel: 'IPB–MDMP (entregable)'
+      file: 'pdf/matrices.pdf', fileLabel: 'Matriz de integración ADM–NIST–MITRE'
     },
     {
       n: 7, title: 'Evaluación', sub: 'Rúbricas e instrumentos de medición',

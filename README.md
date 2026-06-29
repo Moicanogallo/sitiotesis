@@ -48,7 +48,6 @@ puede comprender la implementación íntegra del modelo **sin abrir los descarga
 │       └── maskable-512.png
 ├── pdf/
 │   ├── consentimiento.pdf      (plantilla)
-│   ├── ipb-mdmp.pdf            (documento real)
 │   ├── plan-clase.pdf         (documento real)
 │   ├── programa.pdf            (muestra)
 │   ├── rubricas.pdf            (muestra)
