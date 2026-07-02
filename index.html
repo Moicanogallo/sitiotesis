@@ -114,6 +114,7 @@
           <li><a href="#proyecto" class="primary-nav__link">Proyecto</a></li>
           <li><a href="#modelo" class="primary-nav__link">Modelo</a></li>
           <li><a href="#consentimiento" class="primary-nav__link">Consentimiento</a></li>
+          <li><a href="#rubricas" class="primary-nav__link">Rúbricas</a></li>
           <li><a href="#repositorio" class="primary-nav__link">Repositorio</a></li>
           <li><a href="#galeria" class="primary-nav__link">Galería</a></li>
           <li><a href="#investigador" class="primary-nav__link">Investigador</a></li>
@@ -360,7 +361,70 @@
       </div>
     </section>
 
-    <!-- ===================== 5. REPOSITORIO DOCUMENTAL ===================== -->
+    <!-- ===================== 5. RÚBRICAS (referencia + evaluador) ===================== -->
+    <section id="rubricas" class="section" tabindex="-1" aria-labelledby="rubricas-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-head__eyebrow">Instrumentos de evaluación</p>
+          <h2 id="rubricas-title" class="section-head__title">Rúbricas analíticas</h2>
+          <p class="section-head__desc">
+            Instrumentos con los que se evaluaron las competencias del modelo (escala 1–4). Consulte los
+            criterios y, si lo desea, use el <strong>evaluador interactivo</strong> para capturar puntajes
+            pre/post y ver las métricas en tiempo real. Todo ocurre en su navegador; nada se envía a un servidor.
+          </p>
+        </header>
+
+        <!-- Referencia de rúbricas -->
+        <div class="rub-ref reveal">
+          <div class="rub-scale" aria-label="Escala de niveles de desempeño">
+            <span class="rub-nivel rub-nivel--4">4 · Excelente (3.51–4.00)</span>
+            <span class="rub-nivel rub-nivel--3">3 · Bueno (2.51–3.50)</span>
+            <span class="rub-nivel rub-nivel--2">2 · Suficiente (1.51–2.50)</span>
+            <span class="rub-nivel rub-nivel--1">1 · Insuficiente (1.00–1.50)</span>
+          </div>
+
+          <details class="rub-details" data-searchable>
+            <summary>B.1 · Pensamiento crítico</summary>
+            <div class="rub-details__body">Criterios: análisis de información, uso de evidencias, argumentación y toma de decisiones. Nivel 4: identifica e interpreta toda la información relevante, fundamenta con evidencias verificables y justifica plenamente las decisiones.</div>
+          </details>
+          <details class="rub-details" data-searchable>
+            <summary>B.2 · Pensamiento sistémico</summary>
+            <div class="rub-details__body">Criterios: identificación de actores, relaciones e interdependencias, comprensión del entorno operacional e identificación de efectos directos e indirectos.</div>
+          </details>
+          <details class="rub-details" data-searchable>
+            <summary>B.3 · Pensamiento creativo</summary>
+            <div class="rub-details__body">Criterios: generación de alternativas, originalidad, flexibilidad y viabilidad de las propuestas.</div>
+          </details>
+          <details class="rub-details" data-searchable>
+            <summary>B.4 · Productos de planeación de operaciones de ciberdefensa</summary>
+            <div class="rub-details__body">Criterios: análisis del entorno operacional, estado actual, formulación del problema operacional, enfoque operacional, cursos de acción y recomendación operacional.</div>
+          </details>
+        </div>
+
+        <!-- Evaluador interactivo -->
+        <div class="rub-eval reveal">
+          <h3 class="rub-eval__title">Evaluador interactivo de competencias</h3>
+          <div class="rub-toolbar">
+            <div class="rub-field">
+              <label for="rb-nombre">Nombre o identificador del discente</label>
+              <input type="text" id="rb-nombre" class="rub-input" placeholder="Ej. Discente 01 / Tte. A. García" maxlength="60" />
+            </div>
+            <button type="button" id="rb-add" class="btn btn--small btn--primary">+ Agregar discente</button>
+            <button type="button" id="rb-demo" class="btn btn--small btn--ghost">Cargar ejemplo (n = 9)</button>
+            <button type="button" id="rb-csv" class="btn btn--small btn--gold">⬇ Exportar CSV</button>
+          </div>
+
+          <div id="rb-metrics" class="rub-metrics"></div>
+          <div class="rub-legend"><span class="rub-legend__ini">Evaluación inicial</span><span class="rub-legend__fin">Evaluación final</span></div>
+          <div id="rb-bars" class="rub-bars"></div>
+
+          <div id="rb-list" class="rub-list"></div>
+          <p class="form-hint">Promedios sobre la escala 1–4. La mejora se calcula como ((final − inicial) / inicial) × 100.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 6. REPOSITORIO DOCUMENTAL ===================== -->
     <section id="repositorio" class="section" tabindex="-1" aria-labelledby="repositorio-title">
       <div class="container">
         <header class="section-head reveal">
@@ -640,5 +704,6 @@
 
   <!-- ================= SCRIPT ================= -->
   <script src="js/script.js" defer></script>
+  <script src="js/rubricas.js" defer></script>
 </body>
 </html>

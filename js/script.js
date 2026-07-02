@@ -103,8 +103,8 @@ document.addEventListener('DOMContentLoaded', function () {
   const breadcrumbCurrent = $('#breadcrumb-current');
   const sectionNames = {
     inicio: 'Inicio', proyecto: 'Proyecto', modelo: 'Modelo Pedagógico',
-    consentimiento: 'Consentimiento', repositorio: 'Repositorio', galeria: 'Galería',
-    investigador: 'Investigador', contacto: 'Contacto'
+    consentimiento: 'Consentimiento', rubricas: 'Rúbricas', repositorio: 'Repositorio',
+    galeria: 'Galería', investigador: 'Investigador', contacto: 'Contacto'
   };
   let currentSectionId = '';
   function updateScrollSpy() {
